@@ -12,12 +12,13 @@ A [Neovim](https://neovim.io) setup based on [LazyVim](https://github.com/LazyVi
 6. Problem :
   - Extra build in hijacked -- config.lazy.lua 
   - { import = "plugins.extras.util.lazyrc" } 
+  - to load layvim extras comment out the above lines
 7. Checkhealth and details config information and error
     :Checkhealth
 8. further action 
-- [ ] support for rust development eco system
-- [ ] remove task duplicay with overlapping noice, trouble, telescope, qlist etc.
+- [ ] remove task duplicity with overlapping noice, trouble, telescope, qlist , rust-tool, rust-extensions etc.
 
 ``` lua
-    TODO:
+    TODO: Have fun with neovim and its configurations
+NOTE: load what you need then test for conflict before serious work
 
