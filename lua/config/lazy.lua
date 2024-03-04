@@ -13,7 +13,9 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import/override with your plugins
     { import = "plugins" },
-    -- add project-level extension support
+
+    --TODO: add project-level extension support
+    --
     -- { import = "plugins.extras.util.lazyrc" },
   },
   defaults = {

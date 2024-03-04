@@ -1,6 +1,6 @@
 
 # Neovim with starter as lazyvim and amendments 
-A [Neovim](https://neovim.io) setup based on [LazyVim](https://github.com/LazyVim/LazyVim)
+A [Neovim](https://neovim.io) setup  use extra to enable on disable a plugins start with  [LazyVim](https://github.com/LazyVim/LazyVim)
 
 ##  Getting Started
 
@@ -17,8 +17,12 @@ A [Neovim](https://neovim.io) setup based on [LazyVim](https://github.com/LazyVi
     :Checkhealth
 8. further action 
 - [ ] remove task duplicity with overlapping noice, trouble, telescope, qlist , rust-tool, rust-extensions etc.
+```lua 
+    FIXIT: load what you need then test for conflict before serious work
 
-``` lua
-    TODO: Have fun with neovim and its configurations
-NOTE: load what you need then test for conflict before serious work
+    TODO: Have fun with neovim and its configurations -
+    TODO: Enable plugins in extra by pressing x 'telescope-in-workflow' 
+    NOTE: and enjoy the workflow with telescope 🐸
+```
 
+wip

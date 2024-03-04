@@ -18,3 +18,6 @@
 --   vim.cmd[[nnoremap <S-ScrollWheelUp> <ScrollWheelRight>]]
 --   vim.cmd[[nnoremap <S-ScrollWheelDown> <ScrollWheelLeft>]]
 -- end
+-- Decrease update time
+vim.opt.updatetime = 250
+vim.opt.timeoutlen = 300
