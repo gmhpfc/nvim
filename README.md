@@ -1,5 +1,6 @@
 
 # Neovim with starter as lazyvim and amendments 
+## ENABLE or DISABLE plugins/config with extra util
 A [Neovim](https://neovim.io) setup  use extra to enable on disable a plugins start with  [LazyVim](https://github.com/LazyVim/LazyVim)
 
 ##  Getting Started
