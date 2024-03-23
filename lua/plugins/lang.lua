@@ -3,6 +3,7 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
+---@diagnostic disable-next-line: undefined-doc-name
       ---@type lspconfig.options
       inlay_hints = { enabled = vim.fn.has("nvim-0.10") },
       --@type lspconfig.options

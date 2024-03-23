@@ -36,4 +36,5 @@ vim.api.nvim_create_autocmd("User", {
     end
   end,
 })
+---@diagnostic disable-next-line: deprecated
 return loadstring(file)()
