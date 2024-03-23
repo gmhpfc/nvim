@@ -12,13 +12,6 @@
 --     vim.keymap.set("n", "q", "<cmd>close<cr>", { buffer = event.buf, silent = true })
 --   end,
 -- })
--- Delete number column on terminals
--- vim.api.nvim_create_autocmd("TermOpen", {
---   callback = function()
---     vim.cmd("setlocal listchars= nonumber norelativenumber")
---     -- vim.cmd(":vsplit")
---   end,
--- })
 --
 -- Disable next line comments
 -- vim.api.nvim_create_autocmd("BufEnter", {
@@ -27,3 +20,12 @@
 --     vim.cmd("setlocal formatoptions-=cro")
 --   end,
 -- })
+--
+vim.api.nvim_create_autocmd("TermOpen", {
+  pattern = "term://*",
+  callback = function()
+    vim.cmd("setlocal listchars= nonumber norelativenumber")
+    vim.cmd("setlocal nospell")
+    vim.cmd.startinsert() --vim.cmd("startinsert")
+  end,
+})

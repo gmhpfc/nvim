@@ -2,3 +2,5 @@
 --FIXIT: fixes for duplicate functionality
 --TODO: add rust support with cargo and dap
 --icons local support from icons.lua file
+--NOTE: lazyvim update to latest to load gitneo and github extra plugins
+--FIX: duplicate functionality native c-/ , toggleterm c-/ and c-\ <space>fv vsplit

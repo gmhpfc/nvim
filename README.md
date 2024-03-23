@@ -23,7 +23,7 @@ A [Neovim](https://neovim.io) setup  use extra to enable on disable a plugins st
 
     TODO: Have fun with neovim and its configurations -
     TODO: Enable plugins in extra by pressing x 'telescope-in-workflow' 
-    NOTE: and enjoy the workflow with telescope 🐸
+    NOTE:Update the Lazyvim by lazy extra 'x' and enjoy the workflow with telescope 🐸
 ```
 
 wip
